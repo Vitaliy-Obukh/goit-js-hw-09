@@ -3,7 +3,7 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const galleryItems = [
+const images = [
   {
     preview:
       'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
@@ -70,7 +70,7 @@ const galleryItems = [
 ];
 
 const gallery = document.querySelector('.gallery');
-const imgItems = galleryItems
+const imgItems = images
   .map(
     ({ preview, original, description }) =>
       ` <li class="gallery-item">
