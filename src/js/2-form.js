@@ -23,7 +23,7 @@ function sendUserInfo(event) {
   const message = formData.message.trim();
 
   if (!email || !message) {
-    alert('Please, fill in all fields before sending!');
+    alert('Fill please all fields');
     return;
   }
 
